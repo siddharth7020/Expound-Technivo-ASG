@@ -6,7 +6,7 @@ import Footer from './main/footer';
 
 const Main = () => {
     return (
-        <div className='grid grid-rows-[8%_7%_80%_5%] '>
+        <div className='grid grid-rows-[8%_7%_80%_5%]  '>
             <div className='border-b border-gray-300'>
                 <Header />
             </div>
