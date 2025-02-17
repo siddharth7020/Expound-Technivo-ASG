@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from './main/Header'
 import Middle from './main/Middle'
 import Activity from './main/Activity'
