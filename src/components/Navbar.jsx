@@ -1,15 +1,17 @@
-import React from 'react'
+
 
 const navbar = () => {
   return (
     <div className='flex justify-between items-center text-white bg-custom-blue p-2'>
       <div className='flex gap-2 text-l'>
-        <h3>LOGO</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
+          <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg>
         <h3>Expound Technivo</h3>
       </div>
       <div className='flex gap-4'>
-        <form class="flex bg-white border border-zinc-700 rounded-md shadow text-gray-800 text-sm" >
-          <div aria-disabled="true" class="text-gray-800 grid place-content-center text-zinc-400">
+        <form className="flex bg-white border border-zinc-700 rounded-md shadow text-gray-800 text-sm" >
+          <div aria-disabled="true" className="text-gray-800 grid place-content-center text-zinc-400">
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,9 +20,9 @@ const navbar = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <circle cx="11" cy="11" r="8"></circle>
               <path d="m21 21-4.3-4.3"></path>
@@ -28,9 +30,9 @@ const navbar = () => {
           </div>
           <input
             type="text"
-            spellcheck="false"
+            spellCheck="false"
             name="text"
-            class="bg-transparent py-1.5 outline-none placeholder:text-gray-400 w-20 focus:w-48 transition-all"
+            className="bg-transparent py-1.5 outline-none placeholder:text-gray-400 w-20 focus:w-48 transition-all"
             placeholder="Search..."
           />
         </form>
@@ -55,7 +57,7 @@ const navbar = () => {
         <div className='mt-1'>
           <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+            <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
           </svg>
         </div>
 

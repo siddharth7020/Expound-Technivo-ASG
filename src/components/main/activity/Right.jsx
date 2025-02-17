@@ -79,10 +79,48 @@ const Right = () => {
               <button className='p-1 text-sm bg-custom-blue text-white rounded hover:bg-custom-blue-hover'>Submit</button>
             </div>
           </div>
+          {/* lifecycle */}
+          <div>
+            <div className="p-2 text-xs text-gray-500 font-bold">
+              <p>Activity Lifecycle</p>
+            </div>
+            <div className="border-t border-gray-300">
+              <div className=" p-2 flex justify-center items-center text-xs text-gray-500">
+                <div className="">
+                  <h2 className="text-lg font-bold text-gray-700">January 2025</h2>
+                  <div className="mt-4 border-l-2 border-gray-300 pl-4">
+                    <div className="relative mb-6">
+                      
+                      <p className="text-xs text-gray-900">10/01 | 03:12 PM</p>
+                      <p className="font-semibold">New Lead Created by Anamnaaj</p>
+                    </div>
+
+                    <div className="relative mb-6">
+                     
+                      <p className="text-xs text-gray-900">13/01 | 06:20 PM</p>
+                      <p className="font-semibold">Status Updated to Nurturing</p>
+                    </div>
+
+                    <div className="relative mb-6">
+                      
+                      <p className="text-xs text-gray-900">28/01 | 04:30 PM</p>
+                      <p className="font-semibold">Share Catalogue</p>
+                    </div>
+
+                    <div className="relative">
+                      
+                      <p className="text-xs text-gray-900">28/01 | 04:30 PM</p>
+                      <p className="font-semibold">Introductory call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
         </div>
-
+        {/* right footer */}
         <div className='border-t border-gray-300'>
           <div className='p-2 text-sm'>
             <div className='flex justify-between'>
@@ -116,49 +154,6 @@ const Right = () => {
                       <p>15-02-2023 / 10:00 AM</p>
                     </div>
                   </div>
-                  {/* <div className="bg-gray-100 shadow-lg rounded-lg p-1">
-                    <div className="flex items-center gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-telephone text-green-500" viewBox="0 0 16 16">
-                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58z" />
-                      </svg>
-                      <p className="text-gray-700 font-medium">Share Catalog</p>
-                    </div>
-
-                    <hr className="my-1 border-gray-300" />
-
-                    <div className="flex gap-5 text-gray-600 text-sm">
-                      <div>
-                        <p className="font-medium">Due Date</p>
-                        <p>15-02-2023</p>
-                      </div>
-                      <div>
-                        <p className="font-medium">Time</p>
-                        <p>10:00 AM</p>
-                      </div>
-                    </div>
-                  </div> */}
-
-                  {/* <div className="bg-gray-100 shadow-lg rounded-lg p-2">
-                    <div className="flex items-center gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-telephone text-green-500" viewBox="0 0 16 16">
-                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58z" />
-                      </svg>
-                      <p className="text-gray-700 font-medium">Introductor Call</p>
-                    </div>
-
-                    <hr className="my-1 border-gray-300" />
-
-                    <div className="flex gap-5 text-gray-600 text-sm">
-                      <div>
-                        <p className="font-medium">Due Date</p>
-                        <p>15-02-2023</p>
-                      </div>
-                      <div>
-                        <p className="font-medium">Time</p>
-                        <p>10:00 AM</p>
-                      </div>
-                    </div>
-                  </div> */}
 
 
                 </div>
